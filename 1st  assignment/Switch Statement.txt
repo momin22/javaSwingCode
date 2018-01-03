@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Switch {
+
+	public Switch() {
+ 
+		 
+	}
+
+	public static void main(String[] args) {
+	
+		int id;
+		 Scanner ob= new Scanner(System.in);
+		 
+		 System.out.println("Enter the Employe information:");
+	 
+	    		id=ob.nextInt();   
+	      
+	       switch(id){
+	       
+	       case 1: 
+	    	   System.out.println("Total Employee :10 ");
+	    	   System.out.println("Address: Dhaka");
+	    	   break;
+	       default:
+	    	   System.out.println("Please  input  Correct information");
+	      
+	  
+	}
+	 
+	}
+
+}

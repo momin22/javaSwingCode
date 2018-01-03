@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Fabbocci_series {
+
+	public static void main(String[] args) {
+	
+		 int a, temp1=0,temp2=1,i,result=0;
+		 System.out.println("Enter a  number:");
+		 Scanner ob= new Scanner(System.in);
+		   a=ob.nextInt();
+		   System.out.print("The Fabbocci Series: 0 1"+" ");
+		   for(i=1; i<=a;i++){
+			   result=temp1+temp2;
+			   temp1=temp2;
+			   temp2=result;
+			   System.out.print(result+" ");
+		   }
+		
+		
+
+	}
+
+}

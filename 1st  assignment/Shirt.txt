@@ -1,0 +1,26 @@
+
+package javaapplicate;
+
+
+public class JavaApplicate {
+
+     public int shartID=0;
+     public String  description="-description required-";
+     public char colorCode='U';
+     public double price=0.0;
+     public int quantiyInStock=0;
+     public  void displayShartInformation(){
+         System.out.println("Shart Id:" +shartID);
+         System.out.println("Shart description:"+description);
+         System.out.println("Color code:" + colorCode);
+         System.out.println("Shart price:" + price);
+     }
+   
+    public static void main(String[] args) {
+     
+         JavaApplicate obj=new JavaApplicate();
+        obj.displayShartInformation();
+        
+    }
+    
+}

@@ -1,0 +1,30 @@
+package Momin;
+
+import java.util.Scanner;
+
+public class IfState {
+
+	public IfState() {
+		
+	}
+
+	public static void main(String[] args) {
+	 int a,i,b,sum;
+	 Scanner ob= new Scanner(System.in);
+	 System.out.println("Enter the numbe");
+	 i=ob.nextInt();
+	
+	 if (i<10){
+		 a=ob.nextInt();
+		 b=ob.nextInt();
+		 sum=a+b;
+		 System.out.println(sum);
+	 }
+	 else{
+		  System.out.println("please try again and input less then 10  number");
+	 }
+	 
+
+	}
+
+}

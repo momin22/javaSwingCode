@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Calculat {
+	int a,b,Sum,Mult,Div,sub;
+ void add(){
+			 Sum=a+b;
+			 System.out.println("Your two nuber Summation: "+Sum);}
+ int suB(){
+	 sub=a-b;
+	return sub;	
+	}
+ double div(){
+	 Div=a/b;
+	 return Div;
+ }
+ double mult(){
+	 Mult=a*b;
+	 return Mult;
+ }
+
+	public static void main(String[] args) {
+		int A,S;
+		Calculat	c=new Calculat();
+		Scanner ob=new Scanner(System.in);
+		System.out.println("Enter your number");
+		c.a=ob.nextInt();
+		c.b=ob.nextInt();
+	     c.add();
+	    A=c.suB();
+	    System.out.println("Your two number Substraction is: " +A);
+	    System.out.println("Your two number Multipication is: " +c.mult());
+	    System.out.println("Your two number Divition is: " +c.div());
+
+	}
+
+}

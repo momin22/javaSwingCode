@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Factorial_value {
+ 
+	
+	public static void main(String[] args) {
+		int  result,fact=1,n;
+		 System.out.print("Enter your number:");
+		 Scanner ob=new Scanner(System.in);
+		 n=ob.nextInt();
+		 for(result=1;result<=n; result++){
+    		 fact=fact*result;
+		 }
+		
+		
+		 System.out.println(fact);
+		
+	}
+
+}
